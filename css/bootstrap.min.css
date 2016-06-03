@@ -1981,15 +1981,17 @@ pre code {
 }
 
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
     margin-right: auto;
     margin-left: auto
 }
 
 @media (min-width:768px) {
     .container {
-        width: 750px
+/*        width: 750px*/
+    padding-top: 30px;
+    padding-bottom: 30px
     }
 }
 
@@ -2001,7 +2003,10 @@ pre code {
 
 @media (min-width:1200px) {
     .container {
-        width: 1170px
+        margin-top:30px; 
+        margin-bottom:30px;
+        width: 100%;
+        max-width: auto
     }
 }
 
