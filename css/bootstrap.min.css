@@ -1990,8 +1990,8 @@ pre code {
 @media (min-width:768px) {
     .container {
 /*        width: 750px*/
-    padding-top: 30px;
-    padding-bottom: 30px
+/*    padding-top: 30px;
+    padding-bottom: 30px*/
     }
 }
 
@@ -2003,8 +2003,8 @@ pre code {
 
 @media (min-width:1200px) {
     .container {
-        margin-top:30px; 
-        margin-bottom:30px;
+/*        margin-top:30px; 
+        margin-bottom:30px;*/
         width: 100%;
         max-width: auto
     }
