@@ -3,12 +3,12 @@
 body {
     overflow-x: hidden;
 /*    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif*/    
-				font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif
+	  font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-.text-muted {
-    color: #777
-}
+/*.text-muted {
+    color: #000000
+}*/
 
 .text-primary {
     color: #000000
@@ -47,15 +47,19 @@ a.active {
     color: #e7e7e7
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+h1 {
+    font-family: "Roboto", "Arimo", Helvetica, Arial, sans-serif;   
     /*font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;*/
     text-transform: uppercase;
+},
+h2,
+h3,
+h4 {
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
+},
+h5,
+h6 {
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .img-centered {
@@ -120,7 +124,7 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff
 }
 
-.btn-xl {
+/*.btn-xl {
     color: #000000;
     background-color: #fff;
     border-color: #fff;
@@ -130,7 +134,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px
-}
+}*/
 
 .btn-xl:hover,
 .btn-xl:focus,
@@ -182,7 +186,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     color: #fff;
-    font-family: Montserrat, "sans-serif", "Helvetica Neue", Helvetica, Arial, cursive
+/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif*/
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -211,7 +216,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .nav li a {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;*/
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
@@ -282,15 +288,17 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
+/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;
+*/    font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
+/*    font-style: italic;*/
     font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px
 }
 
 header .intro-text .intro-heading {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;*/    
+    font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 50px;
@@ -304,14 +312,15 @@ header .intro-text .intro-heading {
         padding-bottom: 150px
     }
     header .intro-text .intro-lead-in {
-        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-style: italic;
+        font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
+/*        font-style: italic;*/
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px
     }
     header .intro-text .intro-heading {
-        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+       /* font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;*/
+        font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-size: 45px;
         line-height: 25px;
@@ -333,8 +342,9 @@ section h2.section-heading {
 
 section h3.section-subheading {
     font-size: 45px;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: none;
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
+/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;
+*/    text-transform: none;
     font-style: italic;
     font-weight: 70;
     margin-bottom: 75px
@@ -420,9 +430,9 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
-    /*font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif
-    font-size: 16px;
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
+/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;
+*/    font-size: 16px;
     margin: 0
 }
 
@@ -683,29 +693,33 @@ section#contact .form-control:focus {
 }
 
 section#contact::-webkit-input-placeholder {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;   
+/*font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;
+*/    text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
 
 section#contact:-moz-placeholder {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
+/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;
+*/    text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
 
 section#contact::-moz-placeholder {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
+/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;
+*/    text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
 
 section#contact:-ms-input-placeholder {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
+/*  font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;
+*/    text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
@@ -721,16 +735,18 @@ footer {
 
 footer span.copyright {
     line-height: 40px;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
+/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;
+*/    text-transform: uppercase;
     text-transform: none
 }
 
 footer ul.quicklinks {
     margin-bottom: 0;
     line-height: 40px;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
+/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;
+*/    text-transform: uppercase;
     text-transform: none
 }
 
@@ -800,13 +816,14 @@ ul.social-buttons li a:active {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
+    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
+/*      font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;
+*/}
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
@@ -846,7 +863,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
-    font-size: 3em
+    font-size: 2.5em
 }
 
 .portfolio-modal .modal-content p {
@@ -855,8 +872,8 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-    /*font-style: italic;*/
+/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;
+*/    font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 20px
 }
 
