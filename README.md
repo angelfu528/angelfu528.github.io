@@ -1,2 +1,2 @@
 # angelfuportfolio.github.io
-My portfolio
+I am currently working on my portfolio that showcases my previous projects. Stay tuned. 

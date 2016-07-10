@@ -21,7 +21,7 @@ body {
 p {
     font-size: 15px;
     line-height: 1.5;
-    margin-bottom: 40px
+/*    margin-bottom: 40px*/
 }
 
 p.large {
@@ -867,7 +867,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content p {
-    margin-bottom: 30px
+    /*margin-bottom: 30px*/
 }
 
 .portfolio-modal .modal-content p.item-intro {
