@@ -882,7 +882,7 @@ ul.social-buttons li a:active {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 650px;
+    max-width: 100%;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -927,6 +927,7 @@ ul.social-buttons li a:active {
 
 .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
+    position:absolute;
 }
 
 @media(min-width:768px) {
