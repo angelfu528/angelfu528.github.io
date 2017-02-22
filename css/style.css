@@ -124,6 +124,10 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff
 }
 
+.btn-launch {
+    margin-bottom: 10%;
+}
+
 /*.btn-xl {
     color: #000000;
     background-color: #fff;
