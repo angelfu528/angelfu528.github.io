@@ -28,6 +28,25 @@ p.large {
     font-size: 16px
 }
 
+/* Daily UI font color */
+p.ui {
+    color:#6C7A89
+} 
+
+h3.ui {
+    color:#6C7A89
+}
+
+h4.ui {
+    color:#6C7A89
+}
+
+li.ui {
+    color:#6C7A89
+} 
+
+/* End */
+
 a,
 a:hover,
 a:focus,
