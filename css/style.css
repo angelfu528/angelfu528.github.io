@@ -47,6 +47,15 @@ li.ui {
 
 /* End */
 
+.ui-block {
+    display:block;
+    background:#F6F8FA;
+    padding-top:5%; 
+    padding-bottom:5%;
+    margin-bottom:5%
+}
+
+
 a,
 a:hover,
 a:focus,
