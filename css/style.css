@@ -6,17 +6,12 @@ body {
 	  font-family: "Roboto", "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-/*.text-muted {
-    color: #000000
-}*/
 
 .text-primary {
     color: #000000
 }
 
-/*.skills-heading{
-				color: #fff;
-}*/
+
 
 p {
     font-size: 16px;
@@ -28,7 +23,7 @@ p.large {
     font-size: 16px
 }*/
 
-/* Daily UI font color */
+/* Daily UI font color and paddings */
 p.ui {
     color:#6C7A89
 } 
@@ -44,6 +39,17 @@ h4.ui {
 li.ui {
     color:#6C7A89
 } 
+
+.ui-container {
+    padding-top:5%; 
+    padding-bottom:10%
+}
+
+#ui-text {
+    padding-top:10%; 
+    padding-bottom:5%;
+    text-align:center
+}
 
 /* End */
 
@@ -270,6 +276,34 @@ fieldset[disabled] .btn-xl.active {
     color: #000000;
     background-color: #fec503
 }*/
+
+/* iPhone size */
+@media (min-width:320px) {
+    .navbar-default {
+        background-color: transparent;
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s
+    }
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px
+    }
+    .navbar-default.navbar-shrink {
+        background-color: #fff;
+        padding: 10px 0
+    }
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em
+    }
+
+}
 
 
 /* iPad size */
@@ -708,6 +742,7 @@ section h3.section-subheading {
     }
 }
 
+/* Laptop */
 @media (min-width:992px) {
     .timeline>li {
         min-height: 150px
@@ -750,29 +785,7 @@ section h3.section-subheading {
     }
 }
 
-/*.team-member {
-    text-align: center;
-    margin-bottom: 50px
-}
 
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none
-}
-
-.team-member p {
-    margin-top: 0
-}
-
-aside.clients img {
-    margin: 50px auto
-}*/
 
 section#contact {
     background-color: #000000;
