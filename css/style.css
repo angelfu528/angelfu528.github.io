@@ -143,20 +143,18 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    /*background-color: #fed136;
-    border-color: #fed136;*/
+
     background-color: #e7e7e7;
     border-color:#e7e7e7
 }
 
 .btn-primary .badge {
-    /*color: #fed136;*/
     color: #e7e7e7;
     background-color: #fff
 }
 
 .btn-launch {
-    margin-bottom: 10%;
+    margin-bottom:5%
 }
 
 /*.btn-xl {
@@ -277,6 +275,11 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503
 }*/
 
+.section {
+    padding-bottom:5%
+}
+
+
 /* Smartphone size */
 @media (max-width:450px) {
     .navbar-default {
@@ -303,6 +306,10 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em
     }
 
+    h1 {
+        font-size:24px;
+    }
+
     h4 {
         font-size:12px;
     }
@@ -314,12 +321,22 @@ fieldset[disabled] .btn-xl.active {
     li {
         font-size:10px;
     }
+
     .btn {
         font-size:10px;
         padding:4px 6px;
     }
 
+    #top-button {
+        font-size: 10px
+    }
 }
+
+
+header .intro-text .intro-heading {
+        font-size:20px;
+}
+
 
 
 /* iPad size */
@@ -370,16 +387,13 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;
-*/    font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
-/*    font-style: italic;*/
+    font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
     font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px
 }
 
-header .intro-text .intro-heading {
-/*    font-family: "Arimo", "Segoe UI", Helvetica, Arial, sans-serif;*/    
+header .intro-text .intro-heading {  
     font-family: "Roboto", "Open Sans", Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
@@ -779,6 +793,9 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px
     }
+    .glyphicon-chevron-up {
+        font-size: 1.5em
+    }
 }
 
 @media (min-width:1200px) {
@@ -798,6 +815,9 @@ section h3.section-subheading {
     }
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px
+    }
+    .glyphicon-chevron-up {
+        font-size: 1.5em
     }
 }
 
